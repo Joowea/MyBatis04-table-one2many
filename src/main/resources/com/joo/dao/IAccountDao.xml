@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.joo.dao.IAccountDao">
+
+    <!-- 定义封装account和user的resultMap-->
+    <resultMap id="accountUserMap" type="domain.Account">
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+
+        <!-- (一对一)的关系映射：配置封装user的内容-->
+        <association property="user" column="uid" javaType="domain.User">
+            <id property="id" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="address" column="address"></result>
+            <result property="sex" column="sex"></result>
+            <result property="birthday" column="birthday"></result>
+        </association>
+    </resultMap>
+
+    <!-- 查询所有-->
+    <select id="findAll" resultType="domain.Account">
+        select * from account
+    </select>
+
+    <!-- （一对一）查询account 同时又user下的username 与address-->
+    <select id="findAccountAndUser" resultMap="accountUserMap">
+        select a.*,u.username, u.address from account a, user u where u.id = a.uid;
+    </select>
+
+
+    <!-- 根据id查询一条数据
+    <select id="findById" parameterType="Integer" resultType="domain.Account">
+        select * from account where id = #{id}
+    </select>-->
+
+
+    <!-- 查询account 与user的name address
+    <select id="findAccountAndUser" resultType="domain.AccountAndUser">
+        select a.*,u.username, u.address from account a, user u where u.id = a.uid;
+    </select>
+    -->
+
+
+</mapper>

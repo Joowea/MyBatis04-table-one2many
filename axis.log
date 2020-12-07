@@ -1,0 +1,772 @@
+2020-11-16 20:35:38,296 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 20:35:38,514 218    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:35:38,515 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:35:38,515 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:35:38,515 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:35:38,685 389    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 20:35:39,689 1393   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 29183965.
+2020-11-16 20:35:39,689 1393   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1bd4fdd]
+2020-11-16 20:35:39,692 1396   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2020-11-16 20:35:39,734 1438   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - ==> Parameters: 
+2020-11-16 20:35:39,765 1469   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - <==      Total: 8
+2020-11-16 20:35:39,770 1474   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1bd4fdd]
+2020-11-16 20:35:39,771 1475   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1bd4fdd]
+2020-11-16 20:35:39,771 1475   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 29183965 to pool.
+2020-11-16 20:53:23,407 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 20:53:23,694 287    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:53:23,694 287    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:53:23,694 287    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:53:23,695 288    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 20:53:23,845 438    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 20:53:25,323 1916   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 649329985.
+2020-11-16 20:53:25,325 1918   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2020-11-16 20:53:25,372 1965   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - ==> Parameters: 
+2020-11-16 20:53:25,418 2011   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - <==      Total: 8
+2020-11-16 20:53:25,427 2020   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@26b3fd41]
+2020-11-16 20:53:25,427 2020   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 649329985 to pool.
+2020-11-16 21:06:34,984 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:06:35,333 349    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:06:35,333 349    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:06:35,334 350    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:06:35,334 350    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:07:47,203 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:07:47,478 275    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:07:47,479 276    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:07:47,479 276    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:07:47,479 276    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:07:47,663 460    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 21:07:49,176 1973   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 649329985.
+2020-11-16 21:07:49,178 1975   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2020-11-16 21:07:49,244 2041   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - ==> Parameters: 
+2020-11-16 21:07:49,296 2093   [           main] DEBUG   com.joo.dao.IUserDao.findAll  - <==      Total: 8
+2020-11-16 21:07:49,304 2101   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@26b3fd41]
+2020-11-16 21:07:49,304 2101   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 649329985 to pool.
+2020-11-16 21:09:53,179 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:09:53,372 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:09:53,373 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:09:53,373 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:09:53,373 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:12:09,952 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:12:10,146 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:12:10,146 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:12:10,146 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:12:10,146 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:10,692 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:16:10,923 232    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:10,924 233    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:10,924 233    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:10,924 233    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:51,999 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:16:52,218 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:52,219 220    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:52,219 220    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:16:52,219 220    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:19:38,176 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:19:38,551 375    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:19:38,551 375    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:19:38,551 375    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:19:38,552 376    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:19:38,564 388    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 21:19:38,564 388    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 21:19:38,565 389    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 21:19:38,566 390    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 21:19:38,567 391    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 21:19:38,568 392    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 21:19:38,568 392    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 21:19:38,654 478    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 21:19:38,654 478    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 21:19:38,654 478    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 21:19:38,655 479    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 21:19:38,655 479    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 21:19:38,655 479    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 21:19:38,655 479    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 21:19:38,657 481    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-11-16 21:19:38,658 482    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 21:19:38,659 483    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 21:19:38,661 485    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 21:19:38,661 485    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 21:19:38,662 486    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 21:19:38,664 488    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 21:19:38,665 489    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 21:19:38,665 489    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 21:19:38,667 491    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 21:19:38,668 492    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 21:19:38,668 492    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 21:20:32,502 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 21:20:32,890 388    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:20:32,890 388    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:20:32,890 388    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:20:32,891 389    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 21:20:32,903 401    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 21:20:32,904 402    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 21:20:32,905 403    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 21:20:32,905 403    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 21:20:32,907 405    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 21:20:32,908 406    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 21:20:32,908 406    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 21:20:33,007 505    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 21:20:33,008 506    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 21:20:33,008 506    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 21:20:33,009 507    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 21:20:33,009 507    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 21:20:33,010 508    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 21:20:33,010 508    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 21:20:33,013 511    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  	 
+2020-11-16 21:20:33,015 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 21:20:33,015 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 21:20:33,017 515    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 21:20:33,019 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 21:20:33,019 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 21:20:33,021 519    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 21:20:33,022 520    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 21:20:33,022 520    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 21:20:33,024 522    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 21:20:33,025 523    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 21:20:33,026 524    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 21:20:33,288 786    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 21:20:35,256 2754   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1552999801.
+2020-11-16 21:20:35,259 2757   [           main] DEBUG om.joo.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2020-11-16 21:20:35,316 2814   [           main] DEBUG om.joo.dao.IAccountDao.findAll  - ==> Parameters: 
+2020-11-16 21:20:35,357 2855   [           main] DEBUG om.joo.dao.IAccountDao.findAll  - <==      Total: 3
+2020-11-16 21:20:35,361 2859   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c90e579]
+2020-11-16 21:20:35,361 2859   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1552999801 to pool.
+2020-11-16 22:12:59,620 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 22:12:59,936 316    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:12:59,936 316    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:12:59,937 317    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:12:59,937 317    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:12:59,950 330    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 22:12:59,950 330    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 22:12:59,952 332    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 22:12:59,953 333    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 22:12:59,955 335    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 22:12:59,955 335    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:12:59,956 336    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:13:00,055 435    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 22:13:00,056 436    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 22:13:00,056 436    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 22:13:00,057 437    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 22:13:00,057 437    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:13:00,057 437    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:13:00,058 438    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:13:00,062 442    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:13:00,064 444    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:13:00,067 447    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:13:00,068 448    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:13:00,069 449    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:13:00,069 449    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:13:00,071 451    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:13:00,071 451    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:13:00,071 451    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:13:00,073 453    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:13:00,074 454    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 22:13:00,075 455    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 22:13:00,312 692    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 22:13:01,773 2153   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1552999801.
+2020-11-16 22:13:01,775 2155   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 22:13:01,820 2200   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 22:13:01,853 2233   [           main] DEBUG IAccountDao.findAccountAndUser  - <==      Total: 3
+2020-11-16 22:13:01,856 2236   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c90e579]
+2020-11-16 22:13:01,862 2242   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1552999801 to pool.
+2020-11-16 22:18:58,346 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 22:18:58,697 351    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:18:58,697 351    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:18:58,697 351    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:18:58,697 351    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:18:58,708 362    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 22:18:58,708 362    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 22:18:58,710 364    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 22:18:58,711 365    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 22:18:58,712 366    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 22:18:58,713 367    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:18:58,714 368    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:18:58,803 457    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 22:18:58,804 458    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 22:18:58,805 459    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 22:18:58,805 459    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 22:18:58,806 460    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:18:58,806 460    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:18:58,806 460    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:18:58,811 465    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:18:58,812 466    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:18:58,812 466    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:18:58,815 469    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:18:58,816 470    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:18:58,816 470    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:18:58,818 472    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:18:58,818 472    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:18:58,818 472    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:18:58,821 475    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:18:58,822 476    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 22:18:58,822 476    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 22:18:59,052 706    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 22:19:00,622 2276   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1552999801.
+2020-11-16 22:19:00,625 2279   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 22:19:00,666 2320   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 22:19:00,706 2360   [           main] DEBUG IAccountDao.findAccountAndUser  - <==      Total: 3
+2020-11-16 22:19:00,710 2364   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c90e579]
+2020-11-16 22:19:00,717 2371   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1552999801 to pool.
+2020-11-16 22:21:00,154 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 22:21:00,467 313    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:21:00,467 313    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:21:00,467 313    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:21:00,467 313    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:21:00,477 323    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 22:21:00,477 323    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 22:21:00,478 324    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 22:21:00,479 325    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 22:21:00,480 326    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 22:21:00,481 327    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:21:00,481 327    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:21:00,550 396    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 22:21:00,550 396    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 22:21:00,551 397    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 22:21:00,551 397    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 22:21:00,551 397    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:21:00,552 398    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:21:00,552 398    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:21:00,554 400    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:21:00,556 402    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:21:00,556 402    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:21:00,558 404    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:21:00,559 405    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:21:00,559 405    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:21:00,561 407    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:21:00,562 408    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:21:00,562 408    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:21:00,564 410    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:21:00,565 411    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 22:21:00,565 411    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 22:21:00,818 664    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 22:21:02,561 2407   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1552999801.
+2020-11-16 22:21:02,565 2411   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 22:21:02,623 2469   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 22:21:02,668 2514   [           main] DEBUG IAccountDao.findAccountAndUser  - <==      Total: 3
+2020-11-16 22:21:02,672 2518   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c90e579]
+2020-11-16 22:21:02,678 2524   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1552999801 to pool.
+2020-11-16 22:22:09,018 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 22:22:09,193 175    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:09,194 176    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:09,194 176    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:09,194 176    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:09,202 184    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 22:22:09,202 184    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 22:22:09,203 185    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 22:22:09,203 185    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 22:22:09,204 186    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 22:22:09,205 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:09,205 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:09,262 244    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 22:22:09,263 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 22:22:09,263 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 22:22:09,263 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 22:22:09,264 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:09,264 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:22:09,264 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:22:09,267 249    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:22:09,268 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:22:09,268 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:22:09,269 251    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:22:09,270 252    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:22:09,270 252    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:22:09,273 255    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:22:09,273 255    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:22:09,273 255    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:22:09,275 257    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:22:09,276 258    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 22:22:09,276 258    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 22:22:24,729 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 22:22:24,924 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:24,924 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:24,924 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:24,924 195    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:24,931 202    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 22:22:24,931 202    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 22:22:24,932 203    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 22:22:24,932 203    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 22:22:24,933 204    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 22:22:24,934 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:24,934 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:24,994 265    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 22:22:24,994 265    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 22:22:24,995 266    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 22:22:24,995 266    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 22:22:24,995 266    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:24,995 266    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:22:24,995 266    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:22:24,998 269    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:22:24,999 270    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:22:25,000 271    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:22:25,002 273    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:22:25,003 274    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:22:25,003 274    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:22:25,004 275    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:22:25,005 276    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:22:25,005 276    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:22:25,007 278    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:22:25,008 279    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 22:22:25,008 279    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 22:22:38,724 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 22:22:38,981 258    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:38,981 258    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:38,981 258    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:38,981 258    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 22:22:38,990 267    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 22:22:38,990 267    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 22:22:38,991 268    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 22:22:38,992 269    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 22:22:38,994 271    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 22:22:38,994 271    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:38,995 272    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:39,056 333    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 22:22:39,057 334    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 22:22:39,057 334    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 22:22:39,057 334    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 22:22:39,058 335    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 22:22:39,058 335    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:22:39,058 335    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 22:22:39,061 338    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:22:39,062 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:22:39,062 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 22:22:39,064 341    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:22:39,065 342    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:22:39,065 342    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 22:22:39,067 344    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 22:22:39,067 344    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:22:39,067 344    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 22:22:39,070 347    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 22:22:39,071 348    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 22:22:39,071 348    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 22:22:39,234 511    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 22:22:40,460 1737   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1552999801.
+2020-11-16 22:22:40,462 1739   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 22:22:40,506 1783   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 22:22:40,538 1815   [           main] DEBUG IAccountDao.findAccountAndUser  - <==      Total: 3
+2020-11-16 22:22:40,541 1818   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5c90e579]
+2020-11-16 22:22:40,546 1823   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1552999801 to pool.
+2020-11-16 23:03:48,222 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 23:03:48,661 439    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:03:48,661 439    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:03:48,661 439    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:03:48,662 440    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:03:48,675 453    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 23:03:48,675 453    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 23:03:48,677 455    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 23:03:48,678 456    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 23:03:48,680 458    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 23:03:48,681 459    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:03:48,682 460    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:03:48,887 665    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 23:03:48,888 666    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 23:03:48,889 667    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 23:03:48,889 667    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 23:03:48,890 668    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:03:48,890 668    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:03:48,891 669    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:03:48,902 680    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-16 23:03:48,903 681    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:03:48,904 682    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:03:48,906 684    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:03:48,907 685    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:03:48,908 686    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:03:48,911 689    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 23:03:48,912 690    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:03:48,912 690    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:03:48,915 693    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:03:48,921 699    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 23:03:48,921 699    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 23:04:16,458 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 23:04:16,849 392    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:04:16,849 392    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:04:16,850 393    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:04:16,850 393    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:04:16,863 406    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 23:04:16,863 406    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 23:04:16,865 408    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 23:04:16,867 410    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 23:04:16,868 411    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 23:04:16,869 412    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:04:16,869 412    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:04:16,955 498    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 23:04:16,956 499    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 23:04:16,956 499    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 23:04:16,957 500    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 23:04:16,957 500    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:04:16,957 500    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:04:16,958 501    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:04:16,961 504    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-16 23:04:16,962 505    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:04:16,963 506    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:04:16,966 509    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:04:16,967 510    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:04:16,967 510    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:04:16,969 512    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 23:04:16,969 512    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:04:16,970 513    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:04:16,974 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:04:16,975 518    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 23:04:16,975 518    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 23:04:17,229 772    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 23:04:19,046 2589   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1112414583.
+2020-11-16 23:04:19,049 2592   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 23:04:19,110 2653   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 23:04:19,154 2697   [           main] DEBUG IAccountDao.findAccountAndUser  - <==      Total: 3
+2020-11-16 23:04:19,158 2701   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@424e1977]
+2020-11-16 23:04:19,164 2707   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1112414583 to pool.
+2020-11-16 23:05:30,673 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 23:05:31,040 367    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:05:31,041 368    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:05:31,042 369    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:05:31,042 369    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:05:31,058 385    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 23:05:31,059 386    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 23:05:31,060 387    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 23:05:31,067 394    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 23:05:31,068 395    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 23:05:31,070 397    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:05:31,070 397    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:05:31,190 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 23:05:31,191 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 23:05:31,191 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 23:05:31,191 518    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 23:05:31,193 520    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:05:31,193 520    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:05:31,193 520    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:05:31,199 526    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-16 23:05:31,201 528    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:05:31,202 529    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:05:31,204 531    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:05:31,205 532    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:05:31,205 532    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:05:31,206 533    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 23:05:31,207 534    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:05:31,208 535    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:05:31,210 537    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:05:31,211 538    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 23:05:31,212 539    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 23:05:31,647 974    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 23:05:33,970 3297   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1112414583.
+2020-11-16 23:05:33,973 3300   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 23:05:34,030 3357   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 23:05:34,068 3395   [           main] DEBUG IAccountDao.findAccountAndUser  - <==      Total: 3
+2020-11-16 23:05:34,072 3399   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@424e1977]
+2020-11-16 23:05:34,079 3406   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1112414583 to pool.
+2020-11-16 23:06:45,726 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 23:06:45,897 171    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:06:45,897 171    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:06:45,897 171    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:06:45,897 171    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:06:45,902 176    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 23:06:45,902 176    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 23:06:45,903 177    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 23:06:45,904 178    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 23:06:45,905 179    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 23:06:45,905 179    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:06:45,906 180    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:06:45,946 220    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 23:06:45,947 221    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 23:06:45,947 221    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 23:06:45,947 221    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 23:06:45,948 222    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:06:45,948 222    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:06:45,948 222    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:06:45,949 223    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-16 23:06:45,950 224    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:06:45,950 224    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:06:45,951 225    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:06:45,952 226    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:06:45,952 226    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:06:45,953 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 23:06:45,953 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:06:45,953 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:06:45,954 228    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:06:45,954 228    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 23:06:45,955 229    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 23:06:46,068 342    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 23:06:47,046 1320   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1112414583.
+2020-11-16 23:06:47,047 1321   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 23:06:47,076 1350   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 23:06:47,099 1373   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@424e1977]
+2020-11-16 23:06:47,103 1377   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1112414583 to pool.
+2020-11-16 23:09:09,216 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 23:09:09,420 204    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:09:09,420 204    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:09:09,421 205    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:09:09,421 205    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:09:09,433 217    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 23:09:09,434 218    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 23:09:09,435 219    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 23:09:09,436 220    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 23:09:09,438 222    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 23:09:09,439 223    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:09:09,439 223    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:09:09,534 318    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 23:09:09,535 319    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 23:09:09,535 319    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 23:09:09,536 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 23:09:09,536 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:09:09,536 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:09:09,536 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:09:09,538 322    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-16 23:09:09,540 324    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:09:09,540 324    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:09:09,542 326    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:09:09,543 327    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:09:09,543 327    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:09:09,545 329    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 23:09:09,546 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:09:09,546 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:09:09,548 332    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:09:09,549 333    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 23:09:09,550 334    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 23:10:00,335 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-16 23:10:00,517 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:10:00,518 183    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:10:00,518 183    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:10:00,518 183    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-16 23:10:00,525 190    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-16 23:10:00,525 190    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-16 23:10:00,526 191    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-16 23:10:00,527 192    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-16 23:10:00,527 192    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-16 23:10:00,528 193    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:10:00,528 193    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:10:00,579 244    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-16 23:10:00,580 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-16 23:10:00,580 245    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-16 23:10:00,581 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-16 23:10:00,582 247    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-16 23:10:00,582 247    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:10:00,582 247    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-16 23:10:00,585 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-16 23:10:00,586 251    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:10:00,586 251    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-16 23:10:00,588 253    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:10:00,588 253    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:10:00,588 253    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-16 23:10:00,590 255    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 
+2020-11-16 23:10:00,591 256    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:10:00,591 256    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-16 23:10:00,592 257    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-16 23:10:00,593 258    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-16 23:10:00,593 258    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-16 23:10:00,724 389    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-16 23:10:01,829 1494   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1112414583.
+2020-11-16 23:10:01,832 1497   [           main] DEBUG IAccountDao.findAccountAndUser  - ==>  Preparing: select a.*,u.username, u.address from account a, user u where u.id = a.uid; 
+2020-11-16 23:10:01,875 1540   [           main] DEBUG IAccountDao.findAccountAndUser  - ==> Parameters: 
+2020-11-16 23:10:01,907 1572   [           main] DEBUG IAccountDao.findAccountAndUser  - <==      Total: 3
+2020-11-16 23:10:01,910 1575   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@424e1977]
+2020-11-16 23:10:01,914 1579   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1112414583 to pool.
+2020-11-17 00:07:54,750 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-17 00:07:55,006 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:07:55,006 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:07:55,006 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:07:55,007 257    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:07:55,015 265    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-17 00:07:55,015 265    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-17 00:07:55,016 266    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-17 00:07:55,017 267    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-17 00:07:55,019 269    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-17 00:07:55,020 270    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:07:55,020 270    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:07:55,088 338    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-17 00:07:55,089 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-17 00:07:55,089 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-17 00:07:55,090 340    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-17 00:07:55,090 340    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:07:55,090 340    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:07:55,090 340    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:07:55,092 342    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-17 00:07:55,093 343    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:07:55,093 343    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:07:55,095 345    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:07:55,096 346    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:07:55,096 346    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:07:55,098 348    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1   
+2020-11-17 00:07:55,098 348    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:07:55,098 348    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:07:55,099 349    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:07:55,100 350    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-17 00:07:55,101 351    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-17 00:24:33,349 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-17 00:24:33,506 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:24:33,506 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:24:33,506 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:24:33,506 157    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:24:33,511 162    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-17 00:24:33,511 162    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-17 00:24:33,511 162    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-17 00:24:33,512 163    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-17 00:24:33,512 163    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-17 00:24:33,512 163    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:24:33,513 164    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:24:33,552 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-17 00:24:33,552 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-17 00:24:33,552 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-17 00:24:33,553 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-17 00:24:33,553 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:24:33,553 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:24:33,553 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:24:33,555 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-17 00:24:33,555 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:24:33,555 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:24:33,556 207    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:24:33,557 208    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:24:33,557 208    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:24:33,558 209    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1   
+2020-11-17 00:24:33,558 209    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:24:33,558 209    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:24:33,559 210    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:24:33,560 211    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-17 00:24:33,561 212    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-17 00:25:06,250 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-17 00:25:06,469 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:25:06,469 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:25:06,469 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:25:06,469 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:25:06,476 226    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-17 00:25:06,476 226    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-17 00:25:06,476 226    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-17 00:25:06,477 227    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-17 00:25:06,478 228    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-17 00:25:06,478 228    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:25:06,479 229    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:25:06,530 280    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-17 00:25:06,531 281    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-17 00:25:06,531 281    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-17 00:25:06,532 282    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-17 00:25:06,533 283    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:25:06,533 283    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:25:06,533 283    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:25:06,535 285    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-17 00:25:06,535 285    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:25:06,536 286    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:25:06,537 287    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:25:06,538 288    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:25:06,538 288    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:25:06,540 290    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1   
+2020-11-17 00:25:06,541 291    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:25:06,541 291    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:25:06,542 292    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:25:06,542 292    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-17 00:25:06,543 293    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-17 00:25:06,664 414    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-17 00:25:07,557 1307   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1866850137.
+2020-11-17 00:25:07,558 1308   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==>  Preparing: SELECT * FROM USER u LEFT JOIN ACCOUNT a ON u.id = a.uid 
+2020-11-17 00:25:07,586 1336   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==> Parameters: 
+2020-11-17 00:25:07,614 1364   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6f45df59]
+2020-11-17 00:25:07,614 1364   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1866850137 to pool.
+2020-11-17 00:26:24,382 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-17 00:26:25,201 819    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:26:25,201 819    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:26:25,202 820    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:26:25,202 820    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:26:25,234 852    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-17 00:26:25,235 853    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-17 00:26:25,239 857    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-17 00:26:25,243 861    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-17 00:26:25,245 863    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-17 00:26:25,247 865    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:26:25,247 865    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:26:25,481 1099   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-17 00:26:25,483 1101   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-17 00:26:25,484 1102   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-17 00:26:25,485 1103   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-17 00:26:25,486 1104   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:26:25,489 1107   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:26:25,489 1107   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:26:25,494 1112   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-17 00:26:25,497 1115   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:26:25,497 1115   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:26:25,516 1134   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:26:25,517 1135   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:26:25,518 1136   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:26:25,524 1142   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1   
+2020-11-17 00:26:25,525 1143   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:26:25,525 1143   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:26:25,529 1147   [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:26:25,531 1149   [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-17 00:26:25,534 1152   [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-17 00:26:26,070 1688   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-17 00:26:29,457 5075   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1866850137.
+2020-11-17 00:26:29,463 5081   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==>  Preparing: SELECT * FROM USER u LEFT JOIN ACCOUNT a ON u.id = a.uid 
+2020-11-17 00:26:29,589 5207   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==> Parameters: 
+2020-11-17 00:26:29,695 5313   [           main] DEBUG ao.IUserDao.findUserAndAccount  - <==      Total: 9
+2020-11-17 00:26:29,712 5330   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6f45df59]
+2020-11-17 00:26:29,712 5330   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1866850137 to pool.
+2020-11-17 00:27:34,595 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-17 00:27:35,063 468    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:27:35,064 469    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:27:35,064 469    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:27:35,065 470    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 00:27:35,077 482    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-17 00:27:35,078 483    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-17 00:27:35,079 484    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-17 00:27:35,081 486    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-17 00:27:35,082 487    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-17 00:27:35,083 488    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:27:35,084 489    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:27:35,201 606    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-17 00:27:35,202 607    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-17 00:27:35,202 607    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-17 00:27:35,203 608    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-17 00:27:35,204 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 00:27:35,204 609    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:27:35,205 610    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 00:27:35,208 613    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-17 00:27:35,209 614    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:27:35,210 615    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 00:27:35,213 618    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:27:35,214 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:27:35,214 619    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 00:27:35,217 622    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1   
+2020-11-17 00:27:35,218 623    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:27:35,219 624    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 00:27:35,231 636    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 00:27:35,233 638    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-17 00:27:35,236 641    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-17 00:27:35,531 936    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-17 00:27:37,898 3303   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1866850137.
+2020-11-17 00:27:37,902 3307   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==>  Preparing: SELECT * FROM USER u LEFT JOIN ACCOUNT a ON u.id = a.uid 
+2020-11-17 00:27:37,969 3374   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==> Parameters: 
+2020-11-17 00:27:38,031 3436   [           main] DEBUG ao.IUserDao.findUserAndAccount  - <==      Total: 9
+2020-11-17 00:27:38,043 3448   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6f45df59]
+2020-11-17 00:27:38,044 3449   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1866850137 to pool.
+2020-11-17 11:23:25,141 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-11-17 11:23:25,375 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 11:23:25,376 235    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 11:23:25,376 235    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 11:23:25,376 235    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-11-17 11:23:25,390 249    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-11-17 11:23:25,391 250    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-11-17 11:23:25,391 250    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-11-17 11:23:25,392 251    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-11-17 11:23:25,393 252    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-11-17 11:23:25,393 252    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 11:23:25,394 253    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 11:23:25,556 415    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2020-11-17 11:23:25,556 415    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.xml
+2020-11-17 11:23:25,558 417    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2020-11-17 11:23:25,560 419    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.xml
+2020-11-17 11:23:25,560 419    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao
+2020-11-17 11:23:25,564 423    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 11:23:25,565 424    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.class
+2020-11-17 11:23:25,566 425    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2020-11-17 11:23:25,571 430    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 11:23:25,572 431    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IAccountDao.xml
+2020-11-17 11:23:25,575 434    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 11:23:25,575 434    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 11:23:25,575 434    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.class
+2020-11-17 11:23:25,578 437    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1   
+2020-11-17 11:23:25,578 437    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 11:23:25,578 437    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/O:/IntelliJ_WorkSpace/mybatis1116%e5%a4%9a%e8%a1%a8%e6%9f%a5%e8%af%a2one2many/target/classes/com/joo/dao/IUserDao.xml
+2020-11-17 11:23:25,580 439    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8"?>
+2020-11-17 11:23:25,581 440    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IAccountDao matches criteria [is assignable to Object]
+2020-11-17 11:23:25,583 442    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.joo.dao.IUserDao matches criteria [is assignable to Object]
+2020-11-17 11:23:25,942 801    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-11-17 11:23:26,983 1842   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1866850137.
+2020-11-17 11:23:26,984 1843   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==>  Preparing: SELECT * FROM USER u LEFT JOIN ACCOUNT a ON u.id = a.uid 
+2020-11-17 11:23:27,021 1880   [           main] DEBUG ao.IUserDao.findUserAndAccount  - ==> Parameters: 
+2020-11-17 11:23:27,052 1911   [           main] DEBUG ao.IUserDao.findUserAndAccount  - <==      Total: 9
+2020-11-17 11:23:27,059 1918   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6f45df59]
+2020-11-17 11:23:27,060 1919   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1866850137 to pool.
